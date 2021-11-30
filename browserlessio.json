@@ -16,6 +16,7 @@
     "main_module": "browserlessio_connector.pyc",
     "min_phantom_version": "4.8.24304",
     "app_wizard_version": "1.1.0",
+    "fips_compliant": true,
     "configuration": {
         "URL": {
             "description": "URL for browserless.io (if using hosted service) https://chrome.browserless.io",

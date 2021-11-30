@@ -277,7 +277,7 @@ class BrowserlessIoConnector(BaseConnector):
                     temp_dir = Vault.get_vault_tmp_dir()
                 else:
                     temp_dir = '/opt/phantom/vault/tmp'
-                temp_dir = '{}/{}'.format(temp_dir, hashlib.md5(file_name).hexdigest())
+                temp_dir = '{}/{}'.format(temp_dir, hashlib.sha256(file_name).hexdigest())
                 os.makedirs(temp_dir)
                 file_path = os.path.join(temp_dir, 'tmpfile')
                 with open(file_path, 'wb') as f:
@@ -319,7 +319,7 @@ class BrowserlessIoConnector(BaseConnector):
                     temp_dir = Vault.get_vault_tmp_dir()
                 else:
                     temp_dir = '/opt/phantom/vault/tmp'
-                temp_dir = '{}/{}'.format(temp_dir, hashlib.md5(file_name).hexdigest())
+                temp_dir = '{}/{}'.format(temp_dir, hashlib.sha256(file_name).hexdigest())
                 os.makedirs(temp_dir)
                 file_path = os.path.join(temp_dir, 'tmpfile')
                 with open(file_path, 'wb') as f:
@@ -386,7 +386,7 @@ class BrowserlessIoConnector(BaseConnector):
                     temp_dir = Vault.get_vault_tmp_dir()
                 else:
                     temp_dir = '/opt/phantom/vault/tmp'
-                temp_dir = '{}/{}'.format(temp_dir, hashlib.md5(file_name).hexdigest())
+                temp_dir = '{}/{}'.format(temp_dir, hashlib.sha256(file_name).hexdigest())
                 os.makedirs(temp_dir)
                 file_path = os.path.join(temp_dir, 'tmpfile')
                 with open(file_path, 'wb') as f:
