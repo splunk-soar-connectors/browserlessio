@@ -14,9 +14,9 @@
     "utctime_updated": "2021-11-30T21:49:02.000000Z",
     "package_name": "phantom_browserlessio",
     "main_module": "browserlessio_connector.pyc",
-    "min_phantom_version": "4.8.24304",
+    "min_phantom_version": "5.0.0",
     "app_wizard_version": "1.1.0",
-    "fips_compliant": true,
+    "fips_compliant": false,
     "configuration": {
         "URL": {
             "description": "URL for browserless.io (if using hosted service) https://chrome.browserless.io",
